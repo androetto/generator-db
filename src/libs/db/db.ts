@@ -1,7 +1,7 @@
 import { MongoClient, Db } from "mongodb";
 const url = "mongodb://localhost:27017";
 // Database Name
-const defaultDbname = "myproject";
+const defaultDbname = "joffer";
 
 // Create a new MongoClient
 const client = new MongoClient(url, { useUnifiedTopology: true });
