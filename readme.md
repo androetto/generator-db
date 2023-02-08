@@ -8,8 +8,8 @@
 
 Request:
 
-> /collections
-> body : {
+POST /collections
+{
     "database" : "joffer",
     "collection": "user",
     "fields": [{
